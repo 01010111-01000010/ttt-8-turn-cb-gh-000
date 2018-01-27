@@ -30,5 +30,5 @@ def valid_move?(board, index)
 end
 
 def move(board, input, char)
-    board[index] == char
+    board[index] = char
 end
