@@ -9,7 +9,7 @@ end
 def input_to_index(input)
   index = (input.to_i)
 
-  if !index.is_a? Integer
+  if index < 1 || index > 9
     index = 0
   end
   index -= 1
