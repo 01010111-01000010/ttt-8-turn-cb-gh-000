@@ -18,7 +18,7 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  if index >= 0 && index <= 8
+  if index > -1 && index < 9
     if board[index] != "X" || board[index] != "O"
       return true
     else
